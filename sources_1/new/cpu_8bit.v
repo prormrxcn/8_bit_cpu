@@ -1,21 +1,21 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// College: indore institute of science and technology
+// student: Daksh-vaishnav @ 2nd year 0818ec241022  
 // 
 // Create Date: 08/24/2025 11:41:20 AM
-// Design Name: 
-// Module Name: cpu_8bit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
+// Design Name: daksh vaishnav
+// Module Name: top_bays3
+// Project Name: cpu_8bit
+// Target Devices: xc7a35t-cpg236-1 (basys-3)
+// Tool Versions: vivado 2024.2
+// Description: 8 bit cpu to learn about cpu architecture and instruction set
 // 
-// Dependencies: 
-// 
+// Dependencies: cpu_8vit.v, display_7segment.v , data_path.v , control_unit.v
+//               and clock_devider.v
 // Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
+// Revision 0.03 - information updated
+// Additional Comments: only for educational purpose because i myself am student.
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
