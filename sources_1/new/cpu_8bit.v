@@ -78,7 +78,6 @@ module top_basys3 (
     always @(posedge cpu_clk or posedge reset) begin
         if (reset) begin
             ram_data_out <= 8'h00;
-            // Optional: Initialize RAM contents here if needed
         end else begin
             if (mem_write && (cpu_address >= RAM_BASE) && (cpu_address < RAM_BASE + RAM_SIZE)) begin
                 ram[cpu_address - RAM_BASE] <= cpu_data_out;
@@ -92,7 +91,6 @@ module top_basys3 (
         end
     end
     
-    // ROM implementation
     always @(*) begin
         if (cpu_address >= ROM_BASE) begin
             case (cpu_address)
